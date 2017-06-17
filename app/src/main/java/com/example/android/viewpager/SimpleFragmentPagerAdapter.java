@@ -34,17 +34,17 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
             return new MondayFragment();
         } else if (position == 1) {
             return new TuesdayFragment();
-        } else  if {position == 2) {
+        } else if (position == 2) {
             return new WednesdayFragment();
-        } else if {position == 3) {
+        } else if (position == 3) {
             return new ThursdayFragment();
         } else {return new FridayFragment();}
     }
 
     @Override
     public int getCount() {return 5;}
-        }
-    }
 }
+
+
 
 
